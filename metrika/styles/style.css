@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  background-color: #333;
+}
+
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 33px 125px;
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.nav-bar {
+}
+.nav-bar__items {
+  display: flex;
+  gap: 60px;
+}
+.item-nav {
+  color: #121212;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+.item-nav__about {
+}
+.item-nav__about:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.item-nav__projects {
+}
+.item-nav__projects:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.item-nav__services {
+}
+.item-nav__services:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+.item-nav__contacts {
+}
+.item-nav__contacts:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.first {
+}
+.first__title {
+  width: 956px;
+  margin-bottom: 30px;
+  color: #121212;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+.first__image {
+}
+.image-first {
+  width: 1150px;
+  background: url("/resources/img/content/01.png") no-repeat;
+}
+.image-first__text {
+  width: 430px;
+  height: 81px;
+  padding: 379px 680px 40px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.about {
+  width: 1048px;
+  margin: 150px 0;
+  background-color: #fff;
+}
+.about__title {
+  margin-bottom: 30px;
+  color: #121212;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+.about__text {
+  margin-bottom: 30px;
+  color: #121212;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+.about__button {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: #ad1818;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  cursor: pointer;
+}
