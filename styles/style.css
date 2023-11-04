@@ -50,6 +50,9 @@ body {
   opacity: 0.5;
   text-decoration: underline;
 }
+.section {
+  margin-bottom: 150px;
+}
 .first {
 }
 .first__title {
@@ -76,7 +79,6 @@ body {
 }
 .about {
   width: 1048px;
-  margin: 150px 0;
   background-color: #fff;
 }
 .about__title {
@@ -103,7 +105,6 @@ body {
   cursor: pointer;
 }
 .projects {
-  margin-bottom: 150px;
   font-family: Manrope;
 }
 .projects__title {
@@ -147,4 +148,30 @@ body {
 .projects__button:hover {
   background-color: #ad1818;
   color: #fff;
+}
+.services {
+  margin: 0 -125px;
+  padding: 150px 125px;
+  background-color: #121212;
+  font-family: Manrope;
+  color: #fff;
+}
+.services__title {
+  margin-bottom: 34px;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+.services__list {
+}
+.item-services:not(:last-child) {
+  margin-bottom: 60px;
+}
+.item-services__image img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.item-services__text {
+  font-size: 30px;
+  letter-spacing: -0.9px;
 }
