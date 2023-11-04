@@ -23,9 +23,6 @@ body {
 .item-nav {
   color: #121212;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
@@ -60,8 +57,6 @@ body {
   margin-bottom: 30px;
   color: #121212;
   font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 60px;
   letter-spacing: -1.8px;
 }
@@ -69,7 +64,7 @@ body {
 }
 .image-first {
   width: 1150px;
-  background: url("../resources/img/content/01.png") no-repeat;
+  background: url("../resources/img/content/about/001.png") no-repeat;
 }
 .image-first__text {
   width: 430px;
@@ -77,9 +72,6 @@ body {
   padding: 379px 680px 40px 40px;
   color: #fff;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.6px;
 }
 .about {
@@ -91,9 +83,6 @@ body {
   margin-bottom: 30px;
   color: #121212;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.54px;
   text-transform: uppercase;
 }
@@ -101,9 +90,6 @@ body {
   margin-bottom: 30px;
   color: #121212;
   font-size: 45px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -1.35px;
 }
 .about__button {
@@ -113,9 +99,52 @@ body {
   background-color: #ad1818;
   color: #fff;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: -0.6px;
   cursor: pointer;
+}
+.projects {
+  margin-bottom: 150px;
+  font-family: Manrope;
+}
+.projects__title {
+  margin-bottom: 30px;
+  color: #121212;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+.projects__body {
+  margin-bottom: 90px;
+}
+.body-projects {
+}
+.body-projects__image {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.body-projects__text {
+  margin-bottom: 15px;
+  color: #121212;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+.body-projects__link {
+  display: inline-block;
+  color: #ad1818;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+.projects__button {
+  display: block;
+  padding: 56px 0;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-align: center;
+  color: #ad1818;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+.projects__button:hover {
+  background-color: #ad1818;
+  color: #fff;
 }
