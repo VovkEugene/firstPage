@@ -27,6 +27,8 @@ body {
 .item:hover {
   opacity: 0.5;
   text-decoration: underline;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 10px;
 }
 .section {
   margin-bottom: 150px;
@@ -38,6 +40,7 @@ body {
   color: var(--main-color);
 }
 .title {
+  margin-bottom: 30px;
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
@@ -145,4 +148,19 @@ body {
   color: var(--main-color);
   font-size: 30px;
   letter-spacing: -0.9px;
+}
+.contacts {
+  padding: 150px 0;
+}
+.contacts__icon {
+  padding-bottom: 12px;
+}
+.item-contacts {
+  color: var(--text-color);
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+.item-contacts:not(:last-child) {
+  margin-bottom: 30px;
 }
