@@ -34,25 +34,13 @@ body {
 }
 .item-nav__about {
 }
-.item-nav__about:hover {
-  opacity: 0.5;
-  text-decoration: underline;
-}
 .item-nav__projects {
-}
-.item-nav__projects:hover {
-  opacity: 0.5;
-  text-decoration: underline;
 }
 .item-nav__services {
 }
-.item-nav__services:hover {
-  opacity: 0.5;
-  text-decoration: underline;
-}
 .item-nav__contacts {
 }
-.item-nav__contacts:hover {
+.item:hover {
   opacity: 0.5;
   text-decoration: underline;
 }
@@ -113,26 +101,46 @@ body {
 .projects__title {
   margin-bottom: 30px;
 }
-.projects__body {
+.projects__list {
+}
+.project {
   margin-bottom: 90px;
 }
-.body-projects {
-}
-.body-projects__image {
+.project__image {
   margin-bottom: 15px;
   width: 100%;
 }
-.body-projects__text {
+.project__text {
   margin-bottom: 15px;
   font-size: 30px;
   letter-spacing: -0.9px;
 }
-.body-projects__link {
+.project__link {
   display: inline-block;
   color: var(--accent-color);
   font-size: 20px;
   letter-spacing: -0.6px;
 }
+/* .projects__body {
+  margin-bottom: 90px;
+} */
+/* .body-projects {
+} */
+/* .body-projects__image {
+  margin-bottom: 15px;
+  width: 100%;
+} */
+/* .body-projects__text {
+  margin-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+} */
+/* .body-projects__link {
+  display: inline-block;
+  color: var(--accent-color);
+  font-size: 20px;
+  letter-spacing: -0.6px;
+} */
 .projects__button {
   display: block;
   padding: 56px 0;
