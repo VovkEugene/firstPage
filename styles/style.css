@@ -3,7 +3,6 @@
   --text-color: #121212;
   --accent-color: #ad1818;
 }
-
 body {
   width: 100%;
   background-color: #333;
@@ -21,24 +20,9 @@ body {
   justify-content: space-between;
   margin-bottom: 70px;
 }
-.nav-bar {
-}
 .nav-bar__items {
   display: flex;
   gap: 60px;
-}
-.item-nav {
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
-}
-.item-nav__about {
-}
-.item-nav__projects {
-}
-.item-nav__services {
-}
-.item-nav__contacts {
 }
 .item:hover {
   opacity: 0.5;
@@ -47,10 +31,19 @@ body {
 .section {
   margin-bottom: 150px;
 }
+.section_black {
+  margin: 0 -125px;
+  padding: 150px 125px;
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
 .title {
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
+}
+.image {
+  width: 100%;
 }
 .first {
   position: relative;
@@ -61,9 +54,6 @@ body {
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -1.8px;
-}
-.first__image {
-  width: 100%;
 }
 .first__text {
   position: absolute;
@@ -96,19 +86,14 @@ body {
   letter-spacing: -0.6px;
   cursor: pointer;
 }
-.projects {
-}
 .projects__title {
   margin-bottom: 30px;
-}
-.projects__list {
 }
 .project {
   margin-bottom: 90px;
 }
 .project__image {
   margin-bottom: 15px;
-  width: 100%;
 }
 .project__text {
   margin-bottom: 15px;
@@ -121,26 +106,6 @@ body {
   font-size: 20px;
   letter-spacing: -0.6px;
 }
-/* .projects__body {
-  margin-bottom: 90px;
-} */
-/* .body-projects {
-} */
-/* .body-projects__image {
-  margin-bottom: 15px;
-  width: 100%;
-} */
-/* .body-projects__text {
-  margin-bottom: 15px;
-  font-size: 30px;
-  letter-spacing: -0.9px;
-} */
-/* .body-projects__link {
-  display: inline-block;
-  color: var(--accent-color);
-  font-size: 20px;
-  letter-spacing: -0.6px;
-} */
 .projects__button {
   display: block;
   padding: 56px 0;
@@ -155,22 +120,13 @@ body {
   background-color: var(--accent-color);
   color: var(--main-color);
 }
-.services {
-  margin: 0 -125px;
-  padding: 150px 125px;
-  background-color: var(--text-color);
-  color: var(--main-color);
-}
 .services__title {
   margin-bottom: 34px;
-}
-.services__list {
 }
 .item-services:not(:last-child) {
   margin-bottom: 60px;
 }
 .item-services__image img {
-  width: 100%;
   margin-bottom: 15px;
 }
 .item-services__text {
@@ -180,9 +136,6 @@ body {
 .last {
   position: relative;
   margin: 0 -125px;
-}
-.last__image img {
-  width: 100%;
 }
 .last__text {
   position: absolute;
