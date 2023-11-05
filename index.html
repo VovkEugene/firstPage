@@ -51,8 +51,8 @@
             занимающихся разработкой и реализацией дизайн-проектов
           </p>
         </section>
-        <section class="about section" id="about">
-          <h2 class="about__title title">О нас</h2>
+        <section class="about section">
+          <h2 class="about__title title" id="about">О нас</h2>
           <p class="about__text">
             Студия основана в 2011 году. Полностью отдаемся проектированию и
             реализации интерьеров. К нам обращаются за уютом, индивидуальными
@@ -61,8 +61,8 @@
           </p>
           <a href="#services" class="about__button">Посмотреть услуги</a>
         </section>
-        <section class="projects section" id="projects">
-          <h2 class="projects__title title">проекты</h2>
+        <section class="projects section">
+          <h2 class="projects__title title" id="projects">Проекты</h2>
           <ul class="projects__list">
             <li class="project">
               <div class="project__image image">
@@ -163,13 +163,13 @@
             Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
           </p>
         </section>
-        <section class="contacts" id="contacts">
+        <section class="contacts">
           <img
             class="contacts__icon"
             src="./resources/img/decor/phone.svg"
             alt="phone icon"
           />
-          <h2 class="contacts__title title">Контакты</h2>
+          <h2 class="contacts__title title" id="contacts">Контакты</h2>
           <ul class="contacts__list item-contacts">
             <li class="item-contacts">
               <a class="item-contacts__phone item" href="tel:+79358954535">
@@ -184,7 +184,25 @@
           </ul>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <nav class="footer__nav-bar nav-bar">
+          <ul class="nav-bar__items item-nav title">
+            <li class="item-nav__about item item-footer">
+              <a href="#about">О нас</a>
+            </li>
+            <li class="item-nav__projects item item-footer">
+              <a href="#projects">Проекты</a>
+            </li>
+            <li class="item-nav__services item item-footer">
+              <a href="#services">Услуги</a>
+            </li>
+            <li class="item-nav__contacts item item-footer">
+              <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+      </footer>
     </div>
   </body>
 </html>
