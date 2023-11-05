@@ -1,13 +1,20 @@
+:root {
+  --main-color: #fff;
+  --text-color: #121212;
+  --accent-color: #ad1818;
+}
+
 body {
   width: 100%;
   background-color: #333;
+  font-family: "Manrope", sans-serif;
+  color: var(--text-color);
 }
 .wrapper {
   width: 1150px;
   margin: 0 auto;
   padding: 33px 125px;
-  background-color: #fff;
-  font-family: "Manrope", sans-serif;
+  background-color: var(--main-color);
 }
 .header {
   display: flex;
@@ -21,7 +28,6 @@ body {
   gap: 60px;
 }
 .item-nav {
-  color: #121212;
   font-size: 18px;
   letter-spacing: -0.54px;
   text-transform: uppercase;
@@ -53,13 +59,17 @@ body {
 .section {
   margin-bottom: 150px;
 }
+.title {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
 .first {
   position: relative;
 }
 .first__title {
   width: 956px;
   margin-bottom: 30px;
-  color: #121212;
   font-size: 60px;
   line-height: 60px;
   letter-spacing: -1.8px;
@@ -73,24 +83,18 @@ body {
   bottom: 40px;
   width: 430px;
   height: 81px;
-  color: #fff;
+  color: var(--main-color);
   font-size: 20px;
   letter-spacing: -0.6px;
 }
 .about {
   width: 1048px;
-  background-color: #fff;
 }
 .about__title {
   margin-bottom: 30px;
-  color: #121212;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
 }
 .about__text {
   margin-bottom: 30px;
-  color: #121212;
   font-size: 45px;
   letter-spacing: -1.35px;
 }
@@ -98,21 +102,16 @@ body {
   display: inline-block;
   padding: 20px 40px;
   border-radius: 5px;
-  background-color: #ad1818;
-  color: #fff;
+  background-color: var(--accent-color);
+  color: var(--main-color);
   font-size: 20px;
   letter-spacing: -0.6px;
   cursor: pointer;
 }
 .projects {
-  font-family: Manrope;
 }
 .projects__title {
   margin-bottom: 30px;
-  color: #121212;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
 }
 .projects__body {
   margin-bottom: 90px;
@@ -125,42 +124,37 @@ body {
 }
 .body-projects__text {
   margin-bottom: 15px;
-  color: #121212;
   font-size: 30px;
   letter-spacing: -0.9px;
 }
 .body-projects__link {
   display: inline-block;
-  color: #ad1818;
+  color: var(--accent-color);
   font-size: 20px;
   letter-spacing: -0.6px;
 }
 .projects__button {
   display: block;
   padding: 56px 0;
-  border: 1px solid #ad1818;
+  border: 1px solid var(--accent-color);
   border-radius: 5px;
   text-align: center;
-  color: #ad1818;
+  color: var(--accent-color);
   font-size: 30px;
   letter-spacing: -0.9px;
 }
 .projects__button:hover {
-  background-color: #ad1818;
-  color: #fff;
+  background-color: var(--accent-color);
+  color: var(--main-color);
 }
 .services {
   margin: 0 -125px;
   padding: 150px 125px;
-  background-color: #121212;
-  font-family: Manrope;
-  color: #fff;
+  background-color: var(--text-color);
+  color: var(--main-color);
 }
 .services__title {
   margin-bottom: 34px;
-  font-size: 18px;
-  letter-spacing: -0.54px;
-  text-transform: uppercase;
 }
 .services__list {
 }
@@ -178,7 +172,6 @@ body {
 .last {
   position: relative;
   margin: 0 -125px;
-  font-family: Manrope;
 }
 .last__image img {
   width: 100%;
@@ -188,7 +181,7 @@ body {
   left: 125px;
   bottom: 60px;
   width: 443px;
-  color: #fff;
+  color: var(--main-color);
   font-size: 30px;
   letter-spacing: -0.9px;
 }
