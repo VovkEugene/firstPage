@@ -181,6 +181,7 @@ body {
   font-family: Manrope;
 }
 .last__image img {
+  width: 100%;
 }
 .last__text {
   position: absolute;
