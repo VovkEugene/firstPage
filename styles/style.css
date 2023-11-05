@@ -54,6 +54,7 @@ body {
   margin-bottom: 150px;
 }
 .first {
+  position: relative;
 }
 .first__title {
   width: 956px;
@@ -64,15 +65,14 @@ body {
   letter-spacing: -1.8px;
 }
 .first__image {
+  width: 100%;
 }
-.image-first {
-  width: 1150px;
-  background: url("../resources/img/content/about/001.png") no-repeat;
-}
-.image-first__text {
+.first__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   width: 430px;
   height: 81px;
-  padding: 379px 680px 40px 40px;
   color: #fff;
   font-size: 20px;
   letter-spacing: -0.6px;
@@ -172,6 +172,22 @@ body {
   margin-bottom: 15px;
 }
 .item-services__text {
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+.last {
+  position: relative;
+  margin: 0 -125px;
+  font-family: Manrope;
+}
+.last__image img {
+}
+.last__text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  color: #fff;
   font-size: 30px;
   letter-spacing: -0.9px;
 }
