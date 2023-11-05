@@ -175,6 +175,23 @@ body {
 .item-contacts:not(:last-child) {
   margin-bottom: 30px;
 }
+.main__up-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  display: inline-block;
+  padding: 10px;
+  opacity: 0.5;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  background: var(--text-color);
+  color: var(--main-color);
+}
+.main__up-button:hover {
+  border: 1px solid var(--accent-color);
+  opacity: 1;
+  background-color: var(--accent-color);
+}
 .footer {
   margin: 0 -125px;
   padding: 60px 125px 30px;
