@@ -189,8 +189,8 @@ body {
 }
 .main__up-button:hover {
   border: 1px solid var(--accent-color);
-  opacity: 1;
   background-color: var(--accent-color);
+  opacity: 1;
 }
 .footer {
   margin: 0 -125px;
@@ -202,6 +202,9 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 87px;
+}
+.item-footer:hover {
+  text-decoration: none;
 }
 .footer__text {
   text-align: center;
