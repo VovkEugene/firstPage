@@ -62,6 +62,7 @@ body {
 [class*="__text"],
 [class*="__link"],
 [class*="__button"] {
+  transition: all 0.3s ease 0s;
   font-size: 20px;
   line-height: normal;
   letter-spacing: -0.9px;
@@ -103,6 +104,9 @@ body {
   color: var(--main-color);
   letter-spacing: -0.6px;
   cursor: pointer;
+}
+.about__button:hover {
+  color: var(--accent-color);
 }
 .projects__title {
   margin-bottom: 30px;
@@ -183,6 +187,7 @@ body {
   opacity: 0.5;
   border: 1px solid var(--text-color);
   border-radius: 5px;
+  transition: all 0.3s ease 0s;
   background: var(--text-color);
   color: var(--main-color);
 }
