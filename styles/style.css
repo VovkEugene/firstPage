@@ -164,10 +164,18 @@ body {
   font-size: 30px;
 }
 .contacts {
+  position: relative;
   padding: 150px 0;
 }
-.contacts__icon {
-  padding-bottom: 12px;
+.contacts__title::before {
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 115px;
+  left: -5px;
+  content: "";
+  background: url('../resources/img/decor/phone.svg') no-repeat;
 }
 .item-contacts {
   color: var(--text-color);
