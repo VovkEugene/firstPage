@@ -22,6 +22,7 @@ body {
   margin: 0 auto;
   padding: 33px 125px 0;
 }
+/* ---------------------------------------header------------------------------ */
 .header {
   display: flex;
   justify-content: space-between;
@@ -35,8 +36,9 @@ body {
   opacity: 0.5;
   text-decoration: underline;
   text-decoration-thickness: 0.05em;
-  text-underline-offset: 10px;
+  text-underline-offset: 8px;
 }
+/* -----------------------------------------main------------------------------ */
 .main {
   flex: 1 1 auto;
 }
@@ -67,6 +69,7 @@ body {
   line-height: 135%;
   letter-spacing: -0.8px;
 }
+/* ---------------------------------------first------------------------------ */
 .first {
   position: relative;
 }
@@ -85,6 +88,7 @@ body {
   color: var(--main-color);
   letter-spacing: -0.6px;
 }
+/* ---------------------------------------about------------------------------- */
 .about {
   width: 1048px;
 }
@@ -123,11 +127,12 @@ body {
     background-position: 0% 50%;
   }
 }
-.projects__title {
-  margin-bottom: 30px;
-}
+/* ---------------------------------------project------------------------------ */
 .project {
   margin-bottom: 90px;
+}
+.projects__title {
+  margin-bottom: 30px;
 }
 .project__image {
   margin-bottom: 15px;
@@ -158,6 +163,7 @@ body {
   background-color: var(--accent-color);
   color: var(--main-color);
 }
+/* ---------------------------------------services------------------------------ */
 .services__title {
   margin-bottom: 34px;
 }
@@ -172,6 +178,7 @@ body {
   line-height: 130%;
   letter-spacing: -0.8px;
 }
+/* ---------------------------------------last---------------------------------- */
 .last {
   position: relative;
   margin: 0 -125px;
@@ -186,6 +193,7 @@ body {
   line-height: 134%;
   letter-spacing: -0.8px;
 }
+/* ---------------------------------------contacts------------------------------ */
 .contacts {
   position: relative;
   padding: 183px 0 159px;
@@ -215,6 +223,7 @@ body {
 .item-contacts:not(:last-child) {
   margin-bottom: 30px;
 }
+/* -------------------------------------? button-UP---------------------------- */
 .main__up-button {
   position: fixed;
   right: 30px;
@@ -234,6 +243,7 @@ body {
   background-color: var(--accent-color);
   opacity: 1;
 }
+/* ---------------------------------------footer-------------------------------- */
 .footer {
   margin: 0 -125px;
   padding: 60px 125px 30px;
