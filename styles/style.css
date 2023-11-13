@@ -14,19 +14,17 @@ body {
   font-family: "Manrope", sans-serif;
   color: var(--text-color);
 }
-.wrapper {
+[class*="__container"] {
   width: 1150px;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
-  padding: 33px 125px 0;
+  padding: 0 15px;
 }
 /* ---------------------------------------header------------------------------ */
-.header {
+.header__container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
+  padding-top: 33px;
 }
 .nav-bar__items {
   display: flex;
@@ -46,8 +44,6 @@ body {
   margin-bottom: 150px;
 }
 .section_black {
-  margin: 0 -125px;
-  padding: 150px 125px;
   background-color: var(--text-color);
   color: var(--main-color);
 }
@@ -70,7 +66,7 @@ body {
   letter-spacing: -0.8px;
 }
 /* ---------------------------------------first------------------------------ */
-.first {
+.first__container {
   position: relative;
 }
 .first__title {
@@ -89,13 +85,11 @@ body {
   letter-spacing: -0.6px;
 }
 /* ---------------------------------------about------------------------------- */
-.about {
-  width: 1048px;
-}
 .about__title {
   margin-bottom: 30px;
 }
 .about__text {
+  max-width: 1048px;
   margin-bottom: 30px;
   font-size: 45px;
   line-height: 136%;
@@ -128,11 +122,14 @@ body {
   }
 }
 /* ---------------------------------------project------------------------------ */
-.project {
+.projects__container {
   margin-bottom: 90px;
 }
 .projects__title {
   margin-bottom: 30px;
+}
+.projects__list > * {
+  margin-bottom: 90px;
 }
 .project__image {
   margin-bottom: 15px;
@@ -164,6 +161,9 @@ body {
   color: var(--main-color);
 }
 /* ---------------------------------------services------------------------------ */
+.services__container {
+  padding: 151px 0 150px;
+}
 .services__title {
   margin-bottom: 34px;
 }
@@ -180,8 +180,13 @@ body {
 }
 /* ---------------------------------------last---------------------------------- */
 .last {
+  margin: -150px auto 0;
+}
+.last__container {
+  background: url("../resources/img/content/last/001.png") no-repeat;
   position: relative;
-  margin: 0 -125px;
+  width: 1370px;
+  height: 717px;
 }
 .last__text {
   position: absolute;
@@ -194,7 +199,7 @@ body {
   letter-spacing: -0.8px;
 }
 /* ---------------------------------------contacts------------------------------ */
-.contacts {
+.contacts__container {
   position: relative;
   padding: 183px 0 159px;
 }
@@ -245,10 +250,11 @@ body {
 }
 /* ---------------------------------------footer-------------------------------- */
 .footer {
-  margin: 0 -125px;
+  color: var(--main-color);
+}
+.footer__container {
   padding: 60px 125px 30px;
   background-color: var(--text-color);
-  color: var(--main-color);
 }
 .footer__nav-bar {
   display: flex;
