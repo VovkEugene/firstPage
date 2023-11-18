@@ -1,0 +1,17 @@
+.services__container {
+    padding: 151px 0 150px;
+  }
+  .services__title {
+    margin-bottom: 34px;
+  }
+  .item-services:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  .item-services__image img {
+    margin-bottom: 15px;
+  }
+  .item-services__text {
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.8px;
+  }

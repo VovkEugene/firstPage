@@ -1,0 +1,16 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-top: 33px;
+  }
+  .nav-bar__items {
+    display: flex;
+    gap: 60px;
+  }
+  .item:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+    text-decoration-thickness: 0.05em;
+    text-underline-offset: 8px;
+  }
