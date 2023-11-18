@@ -1,0 +1,19 @@
+.gallary {
+    margin: -150px auto 0;
+  }
+  .gallary__container {
+    background: url("../resources/img/content/gallary/001.png") no-repeat;
+    position: relative;
+    width: 1370px;
+    height: 717px;
+  }
+  .gallary__text {
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    width: 443px;
+    color: var(--main-color);
+    font-size: 30px;
+    line-height: 134%;
+    letter-spacing: -0.8px;
+  }

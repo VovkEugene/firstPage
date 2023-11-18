@@ -1,0 +1,20 @@
+@import "/styles/reset.css";
+
+:root {
+  --main-color: #fff;
+  --text-color: #121212;
+  --accent-color: #ad1818;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--main-color);
+  font-family: "Manrope", sans-serif;
+  color: var(--text-color);
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

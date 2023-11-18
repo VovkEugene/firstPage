@@ -1,0 +1,18 @@
+.hero__container {
+    position: relative;
+  }
+  .hero__title {
+    width: 956px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+  }
+  .hero__text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    color: var(--main-color);
+    letter-spacing: -0.6px;
+  }

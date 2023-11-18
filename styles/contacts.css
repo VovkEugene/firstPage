@@ -1,0 +1,29 @@
+.contacts__container {
+    position: relative;
+    padding: 183px 0 159px;
+  }
+  .contacts__title {
+    line-height: 156%;
+  }
+  .contacts__title::before {
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 150px;
+    left: -5px;
+    content: "";
+    background: url("../resources/img/decor/phone.svg") no-repeat;
+  }
+  .item-contacts {
+    color: var(--text-color);
+    font-size: 60px;
+    line-height: 104%;
+    letter-spacing: -0.9px;
+  }
+  .item-contacts__email {
+    letter-spacing: -1.5px;
+  }
+  .item-contacts:not(:last-child) {
+    margin-bottom: 30px;
+  }
