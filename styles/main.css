@@ -1,5 +1,10 @@
 .main {
 }
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .section {
   margin-bottom: 150px;
 }
@@ -48,4 +53,20 @@
   box-shadow: inset 0 0 2px 0 var(--main-color);
   background-color: var(--accent-color);
   opacity: 1;
+}
+/* -----------------------------------------@media----------------------------- */
+@media (width < 1200px) {
+  .container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 15px;
+    background-color: green;
+  }
+}
+@media (width < 768px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+    background-color: orangered;
+  }
 }

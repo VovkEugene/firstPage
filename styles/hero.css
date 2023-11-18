@@ -1,18 +1,71 @@
 .hero__container {
-    position: relative;
-  }
+}
+.hero__title {
+  width: 956px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+.hero__body {
+  position: relative;
+}
+.hero__image {
+  height: 650px;
+  background: url("/resources/img/content/hero/001.png") center / cover
+    no-repeat;
+}
+.hero__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-shadow: 0 0 8px var(--text-color);
+}
+/* -----------------------------------------@media----------------------------- */
+@media (width < 1200px) {
   .hero__title {
-    width: 956px;
-    margin-bottom: 30px;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -1.8px;
+    width: 802px;
+    font-size: 50px;
+    line-height: 120%;
+    letter-spacing: -1.5px;
   }
   .hero__text {
-    position: absolute;
     left: 40px;
-    bottom: 40px;
-    width: 430px;
-    color: var(--main-color);
-    letter-spacing: -0.6px;
+    bottom: 30px;
   }
+}
+@media (width < 802px) {
+  .hero__title {
+    width: 320px;
+    font-size: 30px;
+    line-height: 105.402%;
+    letter-spacing: -0.9px;
+  }
+  .hero__image {
+    width: 100%;
+    height: 304px;
+    background: url("/resources/img/content/hero/001.png") 40% 70% / cover
+      no-repeat;
+  }
+}
+@media (width < 576px) {
+  .hero__image {
+    width: 100%;
+    height: 304px;
+    background: url("/resources/img/content/hero/002-phone.jpg") 40% 85% / cover
+      no-repeat;
+  }
+  .hero__text {
+    width: 300px;
+    left: 15px;
+    bottom: 15px;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.48px;
+  }
+}

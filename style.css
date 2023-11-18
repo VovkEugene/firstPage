@@ -1,4 +1,9 @@
 @import "/styles/reset.css";
+@import "/styles/header.css";
+@import "/styles/main.css";
+@import "/styles/hero.css";
+@import "/styles/about.css";
+@import "/styles/projects.css";
 
 :root {
   --main-color: #fff;
@@ -9,12 +14,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  width: 100%;
   background-color: var(--main-color);
   font-family: "Manrope", sans-serif;
   color: var(--text-color);
-}
-.container {
-  width: 1150px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
