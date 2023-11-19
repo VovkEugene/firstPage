@@ -15,6 +15,10 @@
   line-height: 127%;
   letter-spacing: -0.6px;
 }
+.project__link:hover{
+  opacity: 0.6;
+  transform: scale(1.05);
+}
 .projects__button {
   display: block;
   padding: 56px 0;

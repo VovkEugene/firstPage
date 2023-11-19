@@ -12,7 +12,7 @@
 }
 .hero__image {
   height: 650px;
-  background: url("/resources/img/content/hero/001.png") center / cover
+  background: url("../resources/img/content/hero/001.png") center / cover
     no-repeat;
 }
 .hero__text {
@@ -37,7 +37,7 @@
   .hero__image {
     width: 100%;
     height: 400px;
-    background: url("/resources/img/content/hero/003-tablet.jpg") 100% / cover
+    background: url("../resources/img/content/hero/003-tablet.jpg") 100% / cover
       no-repeat;
   }
   .hero__text {
@@ -55,7 +55,7 @@
   .hero__image {
     width: 100%;
     height: 304px;
-    background: url("/resources/img/content/hero/001.png") 40% 70% / cover
+    background: url("../resources/img/content/hero/001.png") 40% 70% / cover
       no-repeat;
   }
 }
@@ -66,7 +66,7 @@
   .hero__image {
     width: 100%;
     height: 304px;
-    background: url("/resources/img/content/hero/002-phone.jpg") 40% 85% / cover
+    background: url("../resources/img/content/hero/002-phone.jpg") 40% 85% / cover
       no-repeat;
   }
   .hero__text {
