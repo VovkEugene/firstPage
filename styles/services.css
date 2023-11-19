@@ -21,6 +21,9 @@
   width: 100%;
   margin-bottom: 15px;
 }
+.item-services__image img:hover {
+  border: 1px solid var(--accent-color);
+}
 .item-services__link:hover {
   opacity: 0.5;
 }
@@ -92,7 +95,7 @@
   .services__list {
     flex-direction: column;
   }
-  .item-services{
+  .item-services {
     width: 100%;
   }
   .item-services {
