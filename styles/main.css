@@ -23,6 +23,13 @@
 .image {
   width: 100%;
 }
+.button{
+  display: block;
+  padding: 56px 0;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  text-align: center;
+}
 /* ----------------------------------------------------------------------------- */
 [class*="__text"],
 [class*="__link"],
