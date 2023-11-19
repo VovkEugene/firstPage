@@ -60,7 +60,7 @@
     width: 100%;
     padding-left: 17px;
     padding-right: 15px;
-    /* background-color: green; */
+    background-color: green;
   }
   .section {
     margin-bottom: 120px;
@@ -70,7 +70,7 @@
   .container {
     padding-left: 13px;
     padding-right: 12px;
-    /* background-color: orangered; */
+    background-color: orangered;
   }
   .section {
     margin-bottom: 80px;
