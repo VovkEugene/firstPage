@@ -5,6 +5,7 @@
 @import url("./styles/about.css");
 @import url("./styles/projects.css");
 @import url("./styles/services.css");
+@import url("./styles/feedback.css");
 
 :root {
   --main-color: #fff;
