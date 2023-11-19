@@ -60,13 +60,25 @@
     width: 100%;
     padding-left: 17px;
     padding-right: 15px;
-    background-color: green;
+    /* background-color: green; */
+  }
+  .section {
+    margin-bottom: 120px;
   }
 }
 @media (width < 768px) {
   .container {
     padding-left: 13px;
     padding-right: 12px;
-    background-color: orangered;
+    /* background-color: orangered; */
+  }
+  .section {
+    margin-bottom: 80px;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.42px;
   }
 }
