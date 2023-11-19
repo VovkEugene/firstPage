@@ -43,13 +43,13 @@
 }
 @media (width < 768px) {
   .about__text {
-    width: 340px;
+    width: 100%;
     font-size: 22px;
     line-height: normal;
     letter-spacing: -0.66px;
   }
   .about__button {
-    padding: 15.207px 30.414px;
+    padding: 15px 30px;
     text-align: center;
     font-size: 16px;
     line-height: normal;

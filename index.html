@@ -65,51 +65,78 @@
           </p>
           <a href="#services" class="about__button">Посмотреть услуги</a>
         </section>
-        <!-- <section class="projects section">
-          <div class="projects__container">
-            <h2 class="projects__title title" id="projects">Проекты</h2>
-            <ul class="projects__list">
-              <li class="project">
-                <div class="project__image image">
-                  <img
-                    src="./resources/img/content/projects/001.png"
-                    alt="гостиная в тёмных цветах"
-                    loading="lazy"
-                  />
-                </div>
-                <h3 class="project__text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
-                <a href="#" class="project__link">Подробнее →</a>
-              </li>
-              <li class="project">
-                <div class="project__image image">
-                  <img
-                    src="./resources/img/content/projects/002.png"
-                    alt="гостиная в ярких цветах"
-                    loading="lazy"
-                  />
-                </div>
-                <h3 class="project__text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
-                <a href="#" class="project__link">Подробнее →</a>
-              </li>
-              <li class="project">
-                <div class="project__image image">
-                  <img
-                    src="./resources/img/content/projects/003.png"
-                    alt="гостиная в светлых цветах"
-                    loading="lazy"
-                  />
-                </div>
-                <h3 class="project__text">
-                  ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
-                </h3>
-                <a href="#" class="project__link">Подробнее →</a>
-              </li>
-            </ul>
-            <a href="#projects" class="projects__button"
-              >Смотреть все проекты</a
-            >
-          </div>
-        </section> -->
+        <section class="projects section">
+          <h2 class="projects__title title" id="projects">Проекты</h2>
+          <ul class="projects__list">
+            <li class="project">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="./resources/img/content/projects/phone/001-phone.jpg"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="
+                    ./resources/img/content/projects/tablet/001-tablet.jpg
+                  "
+                />
+                <img
+                  class="project__image image"
+                  src="./resources/img/content/projects/001.png"
+                  alt="гостиная в тёмных цветах"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="project__text">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
+              <a href="#" class="project__link">Подробнее →</a>
+            </li>
+            <li class="project">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="./resources/img/content/projects/phone/002-phone.jpg"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="
+                    ./resources/img/content/projects/tablet/002-tablet.jpg
+                  "
+                />
+                <img
+                  class="project__image image"
+                  src="./resources/img/content/projects/002.png"
+                  alt="гостиная в ярких цветах"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="project__text">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
+              <a href="#" class="project__link">Подробнее →</a>
+            </li>
+            <li class="project">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="./resources/img/content/projects/phone/003-phone.jpg"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="
+                    ./resources/img/content/projects/tablet/003-tablet.jpg
+                  "
+                />
+                <img
+                  class="project__image image"
+                  src="./resources/img/content/projects/003.png"
+                  alt="гостиная в светлых цветах"
+                  loading="lazy"
+                />
+              </picture>
+              <h3 class="project__text">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
+              <a href="#" class="project__link">Подробнее →</a>
+            </li>
+          </ul>
+          <a href="#projects" class="projects__button">Смотреть все проекты</a>
+        </section>
         <!-- <section class="services section section_black">
           <div class="services__container">
             <h2 class="services__title title" id="services">Услуги</h2>
