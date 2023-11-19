@@ -4,6 +4,7 @@
   width: 1150px;
   margin: 0 auto;
   padding: 0 15px;
+  overflow-x: hidden;
 }
 .section {
   margin-bottom: 150px;
