@@ -8,15 +8,13 @@
   flex-wrap: wrap;
   row-gap: 50px;
 }
-.feedback__column {
-  width: calc(50% - 49px);
-}
 .column {
+  width: calc(50% - 49px);
 }
 .column > *:not(:last-child) {
   margin-bottom: 14px;
 }
-.column:last-child {
+.column:last-child:nth-child(odd) {
   width: 74%;
 }
 .column__title {
@@ -29,7 +27,7 @@
   line-height: normal;
   letter-spacing: -0.66px;
 }
-.column__text:not(:last-child) {
+.column__text > *:not(:last-child) {
   margin-bottom: 25px;
 }
 /* -----------------------------------------@media----------------------------- */
@@ -37,16 +35,11 @@
   .feedback__row {
     row-gap: 80px;
   }
-  .feedback__column {
-    width: calc(50% - 10px);
-  }
   .column {
+    width: calc(50% - 10px);
   }
   .column > *:not(:last-child) {
     margin-bottom: 25px;
-  }
-  .column:last-child {
-    width: 74%;
   }
   .column__title {
     font-size: 35px;
@@ -62,17 +55,14 @@
 @media (width < 768px) {
   .feedback__row {
     flex-direction: column;
-    row-gap: 80px;
-  }
-  .feedback__column {
-    width: 100%;
   }
   .column {
+    width: 100%;
   }
   .column > *:not(:last-child) {
     margin-bottom: 10px;
   }
-  .column:last-child {
+  .column:last-child:nth-child(odd) {
     width: 100%;
   }
   .column__title {
@@ -84,8 +74,5 @@
     font-size: 16px;
     line-height: normal;
     letter-spacing: -0.48px;
-  }
-  .column__text:not(:last-child) {
-    margin-bottom: 25px;
   }
 }
