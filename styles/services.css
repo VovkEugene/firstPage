@@ -22,7 +22,7 @@
   margin-bottom: 15px;
 }
 .item-services__image img:hover {
-  border: 1px solid var(--accent-color);
+  box-shadow: 0 0 1px 1px var(--accent-color);
 }
 .item-services__link:hover {
   opacity: 0.5;
