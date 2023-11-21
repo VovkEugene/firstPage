@@ -13,9 +13,6 @@
 .item-footer:hover {
   text-decoration: none;
 }
-.item-footer {
-  flex: 1 0 25%;
-}
 .item-footer__link {
   display: block;
   text-align: center;
@@ -42,8 +39,11 @@
   .footer__nav-bar {
     margin-bottom: 41px;
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
-  .nav-bar__items {
+  .nav-bar__items {    
+    width: 281px;
   }
   .item-footer__link {
     font-size: 12px;
