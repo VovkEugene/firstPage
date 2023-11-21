@@ -5,7 +5,6 @@
   margin: 0 auto;
   padding: 0 15px;
   overflow-x: hidden;
-  /* box-sizing: content-box; */
 }
 .section {
   margin-bottom: 150px;
@@ -23,8 +22,9 @@
 }
 .image {
   width: 100%;
+  object-fit: cover;
 }
-.button{
+.button {
   display: block;
   padding: 56px 0;
   border: 1px solid var(--accent-color);
