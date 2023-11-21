@@ -6,7 +6,7 @@
   }
   .nav-bar__items {
     display: flex;
-    gap: 60px;
+    /* gap: 60px; */
   }
   .item:hover {
     opacity: 0.5;
