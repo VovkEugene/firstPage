@@ -47,8 +47,10 @@
 }
 .arrows {
   display: flex;
+  gap: 14px
 }
 .arrow:hover {
+  cursor: pointer;
   opacity: 0.5;
 }
 /* -----------------------------------------@media----------------------------- */
