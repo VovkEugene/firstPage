@@ -49,7 +49,31 @@
             Заполните форму, мы свяжемся с вами в течение суток
           </h4>
           <div class="popup__close-btn js-popup__close-btn"></div>
-          <button class="popup__button" type="button">Отправить</button>
+          <form class="popup__form" action="">
+            <input
+              class="popup__input"
+              type="text"
+              placeholder="Имя"
+              required
+            />
+            <input
+              class="popup__input"
+              type="email"
+              placeholder="Электронная почта"
+              required
+            />
+            <input
+              class="popup__input"
+              type="tel"
+              placeholder="Номер телефона"
+              required
+            />
+            <input
+              class="popup__button button"
+              type="submit"
+              value="Отправить"
+            />
+          </form>
         </div>
       </div>
       <section class="hero section">
