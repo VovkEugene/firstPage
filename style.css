@@ -9,6 +9,7 @@
 @import url("./styles/gallary.css");
 @import url("./styles/contacts.css");
 @import url("./styles/footer.css");
+@import url("./styles/popup.css");
 
 :root {
   --main-color: #fff;
