@@ -52,3 +52,7 @@
   line-height: 130%;
   letter-spacing: -0.6px;
 }
+.burger-menu__link:hover {
+  border-bottom: 0.5px solid var(--text-color);
+  opacity: 0.5;
+}

@@ -8,9 +8,9 @@
 .nav-bar__items {
   display: flex;
   justify-content: space-around;
-  
 }
 .item-footer:hover {
+  opacity: 0.5;
   text-decoration: none;
 }
 .item-footer__link {
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
   }
-  .nav-bar__items {    
+  .nav-bar__items {
     width: 281px;
   }
   .item-footer__link {
