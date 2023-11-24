@@ -1,16 +1,30 @@
-.header__container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    padding-top: 33px;
+.header {
+  padding: 33px 0 74px;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+}
+.header-menu__items {
+  display: flex;
+  gap: 60px;
+}
+.header-menu__item {
+}
+.header-menu__item:hover {
+  opacity: 0.5;
+  border-bottom: 0.5px solid var(--text-color);
+}
+/* ----------------------------------------@media---------------------------- */
+
+@media (width < 768px) {
+  .header-menu{
+    display: none;
   }
-  .nav-bar__items {
-    display: flex;
-    /* gap: 60px; */
-  }
-  .item:hover {
-    opacity: 0.5;
-    text-decoration: underline;
-    text-decoration-thickness: 0.05em;
-    text-underline-offset: 8px;
-  }
+}
