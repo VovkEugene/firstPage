@@ -10,6 +10,7 @@
 @import url("./styles/contacts.css");
 @import url("./styles/footer.css");
 @import url("./styles/popup.css");
+@import url("./styles/burger.css");
 
 :root {
   --main-color: #fff;
