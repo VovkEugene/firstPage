@@ -26,6 +26,11 @@
   overflow-y: auto;
   scrollbar-width: thin;
   background-color: var(--main-color);
+  transition: transform 0.3s linear;
+  transform: translateX(100%);
+}
+.burger_open .burger__content {
+  transform: translateX(0);
 }
 .burger__logo {
   margin-bottom: 50px;
