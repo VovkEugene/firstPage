@@ -22,7 +22,7 @@
 }
 .projects__button {
   color: var(--accent-color);
-  font-size: 30px;  
+  font-size: 30px;
   line-height: normal;
   letter-spacing: -0.9px;
 }
@@ -47,6 +47,11 @@
     font-size: 25px;
     line-height: normal;
     letter-spacing: -0.75px;
+  }
+}
+@media (width < 992px) {
+  .projects {
+    margin-bottom: 100px;
   }
 }
 @media (width < 768px) {

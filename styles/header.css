@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 /* ----------------------------------------@media---------------------------- */
-@media (width < 768px) {
+@media (width < 992px) {
   .header-menu {
     display: none;
   }

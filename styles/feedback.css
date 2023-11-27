@@ -51,6 +51,9 @@
     line-height: normal;
     letter-spacing: -0.6px;
   }
+  .feedback__row {
+    row-gap: 57px;
+  }
 }
 @media (width < 768px) {
   .feedback__row {

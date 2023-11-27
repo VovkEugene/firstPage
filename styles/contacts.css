@@ -1,4 +1,4 @@
-.contacts{
+.contacts {
   margin-bottom: 139px;
 }
 .contacts__title {
@@ -39,6 +39,14 @@
     letter-spacing: -1.35px;
   }
 }
+@media (width < 992px) {
+  .contacts__title {
+    margin-bottom: 77px;
+  }
+  .item::before {
+    top: -51px;
+  }
+}
 @media (width < 800px) {
   .contacts__title {
     margin-bottom: 58px;
@@ -58,4 +66,3 @@
     top: -20px;
   }
 }
- 

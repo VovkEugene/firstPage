@@ -86,6 +86,14 @@
     letter-spacing: -0.75px;
   }
 }
+@media (width < 992px) {
+  .item-services__image img {
+    margin-bottom: 10px;
+  }
+  .services__list {
+    margin-bottom: -10px;
+  }
+}
 @media (width < 768px) {
   .services {
     padding: 80px 0;

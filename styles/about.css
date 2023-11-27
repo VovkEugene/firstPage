@@ -41,6 +41,11 @@
     letter-spacing: -1.05px;
   }
 }
+@media (width < 992px) {
+  .about__text {
+    max-width: 700px;}
+
+}
 @media (width < 768px) {
   .about__text {
     width: 100%;
