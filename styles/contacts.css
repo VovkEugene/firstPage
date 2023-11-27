@@ -1,10 +1,13 @@
+.contacts{
+  margin-bottom: 139px;
+}
 .contacts__title {
-  margin-bottom: 74px;
+  margin-bottom: 67px;
 }
 .item-contacts {
   position: relative;
   display: flex;
-  column-gap: 104px;
+  column-gap: 118px;
 }
 .item {
   font-size: 60px;
@@ -16,7 +19,7 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  top: -26px;
+  top: -41px;
   left: 0;
 }
 .item-contacts__phone::before {

@@ -3,9 +3,10 @@
   color: var(--main-color);
 }
 .services__title {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 .services__list {
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -15,11 +16,11 @@
   width: calc(50% - 5.5px);
 }
 .item-services:not(:last-child) {
-  margin-bottom: 80px;
+  margin-bottom: 83px;
 }
 .item-services__image img {
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 .item-services__image img:hover {
   box-shadow: 0 0 1px 1px var(--accent-color);

@@ -1,5 +1,5 @@
 .header {
-  padding: 33px 0 74px;
+  padding: 33px 0 68px;
 }
 .header-inner {
   position: relative;
@@ -12,7 +12,7 @@
 }
 .header-menu__items {
   display: flex;
-  gap: 60px;
+  gap: 53px;
 }
 .header-menu__link.title {
   margin: 0;

@@ -5,11 +5,14 @@
 .gallery__title-wrapper {
   position: absolute;
   width: 100%;
-  top: 60px;
+  top: 68px;
   left: 0;
   z-index: 1;
 }
 .gallery__title {
+  font-size: 21px;
+  line-height: 132%;
+  letter-spacing: -0.2px;
   color: var(--main-color);
 }
 .gallery__slide {
@@ -43,11 +46,11 @@
   position: absolute;
   width: 100%;
   top: 515px;
-  left: 0;
+  left: -10px;
 }
 .arrows {
   display: flex;
-  gap: 14px
+  gap: 14px;
 }
 .arrow:hover {
   cursor: pointer;
