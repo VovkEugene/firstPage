@@ -79,3 +79,11 @@
     letter-spacing: -0.48px;
   }
 }
+@media (width < 576px) {
+  .feedback__row {
+    row-gap: 73px;
+  }
+  .column__text > *:not(:last-child) {
+    margin-bottom: 31px;
+  }
+}

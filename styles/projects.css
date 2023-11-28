@@ -84,3 +84,8 @@
     letter-spacing: -0.66px;
   }
 }
+@media (width < 576px) {
+  .projects {
+    margin-bottom: 77px;
+  }
+}

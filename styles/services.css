@@ -133,3 +133,14 @@
     letter-spacing: -0.66px;
   }
 }
+@media (width < 576px) {
+  .item-services:not(:last-child) {
+    margin-bottom: 54px;
+  }
+  .item-services:last-child {
+    margin-bottom: 64px;
+  }
+  .item-services__image img {
+    margin-bottom: 9px;
+  }
+}
